@@ -28,7 +28,7 @@ export default class Calculator extends Component {
   render() {
     return (
       <div className='calculator'>
-        <Display value={1000}/>
+        <Display value={0}/>
         <Button label="AC" click={this.clearMemory} triple/>
         <Button label="/" click={this.setOperation} operation/>
         <Button label="7" click={this.addDigit}/>
